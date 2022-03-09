@@ -9,9 +9,12 @@ public class MainTest {
 		
 		Book book1 = new Book("Harry Poter", 23.9);
 		Book book2 = new Book("Thunder Storm", 122.6);
+		Book book3 = new Book("Harry poter", 82.6);
+		 
 		
 		book1.printInfo();
 		book2.printInfo();
+		book3.printInfo();
 		
 
 	}
